@@ -8,6 +8,6 @@
       (f.nom.value.trim()?f.tel:f.nom).focus();
       return;
     }
-    m.textContent='Démonstration : dans la version finale, cette demande arrivera directement dans la boîte mail d’Arkomedic.';
+    m.textContent='Démonstration : dans la version finale, cette demande arrivera directement dans la boîte mail d’Arcomedic.';
   });
 })();

@@ -1,6 +1,6 @@
-# Arkomedic – maquette du site
+# Arcomedic – maquette du site
 
-Maquette de démonstration du site vitrine d'Arkomedic (vente et location de matériel médical).
+Maquette de démonstration du site vitrine d'Arcomedic (vente et location de matériel médical).
 Textes, téléphone et photos provisoires. Site statique (HTML/CSS/JS), publié via GitHub Pages.
 Non indexé par les moteurs de recherche (`noindex` + `robots.txt`) tant que c'est une démo.
 
