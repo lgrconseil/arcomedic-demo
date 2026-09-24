@@ -1,9 +1,10 @@
 # Arcomedic – maquette du site
 
-Maquette de démonstration du site vitrine d'Arcomedic (vente et location de matériel médical).
-Textes, téléphone et photos provisoires. Site statique (HTML/CSS/JS), publié via GitHub Pages.
-Non indexé par les moteurs de recherche (`noindex` + `robots.txt`) tant que c'est une démo.
+Maquette du site d'Arcomedic : vente, maintenance et formation (matériel pour le bloc, la réanimation, le laboratoire et le dépôt de sang).
+Photos, numéros de téléphone et certains textes provisoires. Site statique (HTML/CSS/JS) publié via GitHub Pages,
+non indexé par les moteurs de recherche (`noindex` + `robots.txt`) tant que c'est une démo.
 
-- `index.html` : page d'accueil
+- `index.html` : accueil (menu des produits, métiers, SAV, contact)
+- `temperature.html`, `anesthesie-reanimation.html`, `laboratoire.html` : pages produits
 - `mentions-legales.html` : mentions légales et confidentialité (à compléter)
-- `assets/` : styles, script du formulaire, favicon
+- `assets/` : styles, script du formulaire, logo, favicon

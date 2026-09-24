@@ -4,8 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Mentions légales – Arcomedic</title>
+<meta name="description" content="Mentions légales et politique de confidentialité d’Arcomedic.">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#1F6B5C">
+<meta property="og:title" content="Mentions légales – Arcomedic">
+<meta property="og:description" content="Mentions légales et politique de confidentialité d’Arcomedic.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1F63C6">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,23 +17,36 @@
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<a class="skip" href="#contenu">Aller au contenu</a>
 
-<div class="demo" role="note">Maquette de démonstration : les informations ci-dessous seront complétées avec les données de l'entreprise.</div>
+<div class="demo" role="note">Maquette de démonstration : les photos, les numéros de téléphone et certains textes sont provisoires.</div>
 
 <header class="head">
   <div class="wrap">
-    <a class="brand" href="./" aria-label="Arcomedic, retour à l'accueil">
-      <svg viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="var(--pine)"/><path d="M10 27 18 9l8 18M13.2 20h9.6" fill="none" stroke="var(--on-pine)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="27.5" cy="9" r="3" fill="var(--amber)"/></svg>
-      Arcomedic
-    </a>
+    <a class="brand" href="./" aria-label="Arcomedic, accueil"><img src="assets/logo.png" alt="Arcomedic" width="368" height="274"></a>
     <nav class="nav" aria-label="Navigation principale">
-      <a href="./">Accueil</a>
-      <a href="./#contact">Contact</a>
+<a href="temperature.html">Température</a>
+<a href="anesthesie-reanimation.html">Anesthésie-Réa</a>
+<a href="laboratoire.html">Laboratoire</a>
+<a href="./#sav">SAV</a>
+<a href="./#contact">Contact</a>
     </nav>
+    <a class="head-call" href="tel:+33500000000">05 00 00 00 00</a>
+    <details class="menu">
+      <summary>Menu</summary>
+      <nav aria-label="Navigation mobile">
+<a href="temperature.html">Température</a>
+<a href="anesthesie-reanimation.html">Anesthésie-Réa</a>
+<a href="laboratoire.html">Laboratoire</a>
+<a href="./#sav">SAV</a>
+<a href="./#contact">Contact</a>
+<a href="tel:+33500000000">Appeler le 05 00 00 00 00</a>
+      </nav>
+    </details>
   </div>
 </header>
 
-<main class="page">
+<main class="page" id="contenu">
   <div class="wrap">
     <h1>Mentions légales</h1>
 
@@ -40,25 +57,30 @@
     Contact : <a href="mailto:arcomedic@wanadoo.fr">arcomedic@wanadoo.fr</a>.</p>
 
     <h2>Hébergement</h2>
-    <p><span class="todo">Nom, adresse et téléphone de l'hébergeur</span></p>
+    <p><span class="todo">Nom, adresse et téléphone de l’hébergeur</span></p>
 
     <h2 id="confidentialite">Données personnelles</h2>
-    <p>Les informations transmises via le formulaire de devis (nom, téléphone, besoin) servent uniquement à répondre à votre demande. Elles ne sont ni vendues ni cédées à des tiers et sont conservées <span class="todo">durée</span>.</p>
-    <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données, en écrivant à <a href="mailto:arcomedic@wanadoo.fr">arcomedic@wanadoo.fr</a>. Vous pouvez également adresser une réclamation à la CNIL.</p>
+    <p>Les informations transmises via le formulaire de contact (nom, établissement, coordonnées, message) servent uniquement à répondre à votre demande. Elles ne sont ni vendues ni cédées à des tiers et sont conservées <span class="todo">durée</span>.</p>
+    <p>Conformément au RGPD, vous disposez d’un droit d’accès, de rectification et de suppression de vos données, en écrivant à <a href="mailto:arcomedic@wanadoo.fr">arcomedic@wanadoo.fr</a>. Vous pouvez également adresser une réclamation à la CNIL.</p>
 
     <h2>Cookies</h2>
-    <p>Ce site n'utilise pas de cookies de mesure d'audience ni de publicité.</p>
+    <p>Ce site n’utilise pas de cookies de mesure d’audience ni de publicité.</p>
 
-    <p style="margin-top:2.5rem"><a class="btn btn-line" href="./">Retour à l'accueil</a></p>
+    <p style="margin-top:2.5rem"><a class="btn btn-line" href="./">Retour à l’accueil</a></p>
   </div>
 </main>
 
 <footer class="foot">
   <div class="wrap">
-    <span>© 2026 Arcomedic</span>
-    <span><a href="./">Accueil</a></span>
+    <span>© 2026 Arcomedic · Vente, maintenance et formation</span>
+    <span><a href="mentions-legales.html">Mentions légales</a> &nbsp; <a href="mentions-legales.html#confidentialite">Confidentialité</a></span>
   </div>
 </footer>
+
+<nav class="mbar" aria-label="Actions rapides">
+  <a class="m-call" href="tel:+33500000000">Appeler</a>
+  <a class="m-doc" href="./#contact">Documentation</a>
+</nav>
 
 </body>
 </html>
