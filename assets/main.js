@@ -20,3 +20,12 @@
     m.textContent='Démonstration : dans la version finale, cette demande arrivera directement dans la boîte mail d’Arcomedic.';
   });
 })();
+
+// Vignettes : un produit avec plusieurs photos
+document.querySelectorAll('.thumbs button').forEach(function(b){
+  b.addEventListener('click',function(){
+    var card=b.closest('.product'), main=card.querySelector('.ph img');
+    main.src=b.dataset.src; main.alt=b.dataset.alt;
+    card.querySelectorAll('.thumbs button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+  });
+});

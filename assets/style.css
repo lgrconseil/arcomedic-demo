@@ -191,3 +191,7 @@ textarea{min-height:7rem;resize:vertical}
 .doc-note{margin-top:1rem;font-weight:700;color:var(--blue-deep);max-width:36em}
 .page-head .pillars{margin-top:1.1rem}
 .hotline strong{font-size:clamp(1.7rem,3.4vw,2.3rem)}
+.thumbs{display:flex;gap:.5rem;margin:-.1rem 0 .2rem}
+.thumbs button{padding:0;width:68px;aspect-ratio:4/3;border:2px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;cursor:pointer}
+.thumbs button[aria-pressed="true"]{border-color:var(--blue)}
+.thumbs img{display:block;width:100%;height:100%;object-fit:cover}
