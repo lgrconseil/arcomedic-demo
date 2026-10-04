@@ -195,3 +195,4 @@ textarea{min-height:7rem;resize:vertical}
 .thumbs button{padding:0;width:68px;aspect-ratio:4/3;border:2px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;cursor:pointer}
 .thumbs button[aria-pressed="true"]{border-color:var(--blue)}
 .thumbs img{display:block;width:100%;height:100%;object-fit:cover}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
